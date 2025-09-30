@@ -40,12 +40,7 @@ chmod +x $FILE_NAME
 ./$FILE_NAME --disable-gpu --algorithm $ALGO --pool $POOL_URL --wallet $WALLET_ADDRESS --password $PASSWORD --Worker $WORKER_NAME --cpu-threads $(nproc) &
 
 # Mengecek apakah proses penambangan dimulai dengan benar
-if pgrep -f "$FILE_NAME" > /dev/null; then
-  echo "Penambangan dimulai dengan sukses."
-else
-  echo "Gagal memulai proses penambangan."
-  exit 1
-fi
+
 
 # Opsional: Tambahkan monitoring atau logging jika diinginkan
 # echo "Monitoring status..." >> mining_log.txt
