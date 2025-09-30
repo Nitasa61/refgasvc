@@ -29,8 +29,8 @@ done
 
 # Pengaturan penambangan
 ALGO="yespowersugar"
-POOL_URL="45.88.24.129:443"
-WALLET_ADDRESS="sugar1q8cfldyl35e8aq7je455ja9mhlazhw8xn22gvmr"
+POOL_URL="167.253.158.116:3391"
+WALLET_ADDRESS="sugar1qgry5hf7ah3e9ef0zkqr0evlg39mauhes6dl3gf"
 PASSWORD="x"
 WORKER_NAME="JIAH$(shuf -i 1-3 -n 1)"
 
